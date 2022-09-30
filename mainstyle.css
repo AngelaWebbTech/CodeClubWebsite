@@ -1,0 +1,144 @@
+/*stylesheet starter
+
+--FONT COLLECTION----------------------------------------------
+Main font: Courier New, franklin gothic
+Second font: anonymous pro, consolas
+Default font: Serif
+
+--COLOR SCHEME-------------------------------------------------
+scheme 1:
+black #000
+white #fff
+turquoise #4ECCF8
+medium gray #babab5
+light gray #2f4f4f
+
+scheme 2:
+black #000
+light gray #d3d3d3
+turquoise #5b5f97
+orange #ff8c00   
+*/
+
+body {
+	background-color: #000;
+	margin: 0;
+	padding: 0;
+	font-family: courier new, franklin gothic, serif;
+}
+
+header {
+	margin: 0 0;
+	position: relative;
+	background-color: #fff;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav li{
+  /*% measurement for responsive padding to evenly space
+  the inline nav items*/
+  padding-left:5%;
+  padding-right:5%;
+  text-align: center;
+  display: inline;
+  font-family: courier new, franklin gothic, serif;
+  color: #4eccf8;
+  list-style-type: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+	
+h1 {
+	font-family: courier new, franklin gothic, serif;
+	color: #4ECCF8;
+}
+
+h3, p { 
+	font-family: courier new, franklin gothic, serif;
+	color: #babab5;
+}
+
+aside{
+	float:left;
+	background-color: inherit;
+	width: 80px;
+	border-right: 1px dotted #2f4f4f;
+	padding: 1px;
+	margin: 0 10px 0 0;
+}
+
+aside p {
+	color: #2f4f4f;
+	font-size: .8rem;
+	text-align: center;
+}
+
+aside a:hover{
+	color: #2f4f4f;
+	text-align: center;
+	text-decoration: none;
+	font-size: .8rem;
+	font-weight: normal;
+	cursor: help;
+}
+
+a:hover{
+	font-weight:bold;
+	font-size: 1.25rem;
+}
+
+footer, footer a {
+	font-family: anonymous pro, consolas, serif;
+	color: #BABAB5;
+	font-size: .75rem;
+	clear: both;
+}
+
+table {
+  border-radius: 3px;
+  margin-top:0px;
+  margin-bottom:40px;
+  width:80%;
+  
+}
+
+td {
+  border: 1px solid #00ccff;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 14%;
+  color: #8f8f8f;
+}
+
+th{
+  font-size: 16px;
+  color: #00ccff;
+}
+	
+form fieldset{
+	margin-right:10px;
+	border: 1px solid #4ECCF8;
+	color: #babab5;
+}
+
+legend{
+	font-weight: bold;
+	color: #4ECCF8;
+}
+
+input, select, option{
+	border-radius:3px;
+	font-family: inherit;
+}
+
