@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<title>Code Club: Signup</title>
+<meta charset="UTF-8">
+<meta name="author" content="Angela Webb">
+
+<link rel="stylesheet" type="text/css" href="stylesheets/mainstyle.css">
+
+</head>
+
+<body>
+
+<!--This is a personal project to practice web design, and is not intended to be published for public use.
+	image #60785 from clipart-library.com-->
+<header style="background-color: #FFF">
+<h1 style="text-align: center">Code Club</h1>
+<p>
+<img class="center" src="assets/codeclublogo.jpg" alt="blue cartoon computer" height="150" 
+width="150">
+</p>
+</header>
+
+<hr>
+
+<nav>
+<ul>
+  <li><a href="mainpage.html">Home</a></li><!--general information-->
+  <li><a href="calendarpage.html">Calendar</a></li><!--listing of dates 
+	with event info-->
+  <li>&#10028;Sign Up&#10028;</li><!--information @ signing up, and link to do so-->
+  <li><a href="mailto:angelawebbtech@gmail.com">Contact Us</a></li>
+</ul>
+</nav>
+
+<hr>
+
+<aside style="border-right: none">
+<p><a href="https://www.convertbinary.com/to-text/">00100001<br>01100110<br>
+01100001<br>01101100<br>01110011<br>01100101<br>00100000<br>00101000<br>
+01101001<br>01110100<br>00100111<br>01110011<br>00100000<br>01100110<br>
+01110101<br>01101110<br>01101110<br>01111001<br>00100000<br>01100010<br>
+01100101<br>01100011<br>01100001<br>01110101<br>01110011<br>01100101<br>
+00100000<br>01101001<br>01110100<br>00100111<br>01110011<br>00100000<br>
+01110100<br>01110010<br>01110101<br>01100101<br>00101001</a></p>
+</aside>
+
+<main>
+
+<form style="color:#FFF" name="signup" action="mailto:angelawebbtech@gmail.com" method="post">
+
+<fieldset>
+<legend style="text-align:right; border-color:#4ECCF8">Sign Up Today!</legend>
+<br>
+<blockquote>After you're done with this sign-up, don't forget to go over 
+	to our <a style="text-decoration: underline" href="calendarpage.html">calendar</a> to see when the next meeting is!
+</blockquote>
+<br>
+
+<fieldset>
+<legend>Required Information:</legend>
+Name?<input type="text" name="firstname" required placeholder="First Last"/>
+<br><br>
+Choose a password:<input type="password" placeholder="max 15 characters" required name="password" maxlength="15"/><br>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+<legend>About you:</legend>
+What are you studying?<br>
+	<input type="radio" name="major" value="Software Development"/>Software Development<br/>
+	<input type="radio" name="major" value="Cyber Security"/>Cyber Security<br>
+	<input type="radio" name="major" value="Data Science"/>Data Science<br>
+	<input type="radio" name="major" value="Other Computer Science"/>Other Computer Science:
+		<input type="text" name="other cs" placeholder="area of study"/><br>
+	<input type="radio" name="major" value="Other"/>Something else:
+		<input type="text" name="other major" placeholder="area of study"/>
+<br><br><br>
+Expected graduation date:<input type="date" name="graduation date"><br>
+<br><br>
+Which languages do you have experience with?<br>
+	<input type="checkbox" name="language" value="Python"/>Python<br>
+	<input type="checkbox" name="language" value="Java"/>Java<br>
+	<input type="checkbox" name="language" value="HTML/CSS/JS"/>HTML/CSS/JS<br>
+	<input type="checkbox" name="language" value="C#"/>C#<br>
+	<input type="checkbox" name="language" value="Other"/>Something else:
+		<input type="text" name="other language" placeholder="which one(s)?"/><br>
+	<input type="checkbox" name="language" value="Other"/>None<br>
+	
+<br><br>
+Do you plan on attending in person or online?
+	<select name="attending_how">
+		<option value="in person">In Person</option>
+		<option value="online">Online</option>
+		<option value="unsure">Not Sure</option>
+	</select>
+<br><br><br>
+Can we email you?
+	<select name="contact">
+		<option value="yes">yes</option>
+		<option value="no">no</option>
+	</select><br>
+Email address:<input type="email" name="email" placeholder="email@example.com"/>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+<legend>Everything correct?</legend>
+<input type="submit" value="Submit Info"> Send us this information so that we can start looking forward to meeting you!
+<br><br>
+<input type="reset" value="Clear Form"> Erase all of the information you entered without sending it to us.
+</fieldset>
+</fieldset>
+</form>
+
+<footer style="background-color: #FFF">
+<!--copyright info-->
+&copy;copyright 2022 <br>
+Angela Webb <a href="mailto:angelawebbtech@gmail.com">[contact]</a>
+</footer>
+
+</main>
+
+</body>
+
+</html>
