@@ -3,41 +3,43 @@
 <html lang="en">
 
 <head>
-<title>Code Club: Signup</title>
+<title>Code Club</title>
+
 <meta charset="UTF-8">
-<meta name="author" content="Angela Webb">
+<meta name="author" content="AngelaWebbTech">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="stylesheet" type="text/css" href="stylesheets/mainstyle.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/mobile.css">
 
 </head>
 
 <body>
 
-<!--This is a personal project to practice web design, and is not intended to be published for public use.
-	image #60785 from clipart-library.com-->
-<header style="background-color: #FFF">
+<!--Club name is Code Club, and logo is cartoonish computer-->
+<!--logo image #60785 from clipart-library.com-->
+<header class="column12" style="background-color: #FFF">
 <h1 style="text-align: center">Code Club</h1>
 <p>
-<img class="center" src="assets/codeclublogo.jpg" alt="blue cartoon computer" height="150" 
-width="150">
+<img class="center" src="assets/codeclublogo.jpg" alt="blue cartoon computer" width="150">
 </p>
 </header>
 
 <hr>
 
-<nav>
+<nav class="column12">
 <ul>
   <li><a href="mainpage.html">Home</a></li><!--general information-->
   <li><a href="calendarpage.html">Calendar</a></li><!--listing of dates 
 	with event info-->
   <li>&#10028;Sign Up&#10028;</li><!--information @ signing up, and link to do so-->
-  <li><a href="mailto:angelawebbtech@gmail.com">Contact Us</a></li>
+  <li>Contact Us</li>
 </ul>
 </nav>
 
 <hr>
 
-<aside style="border-right: none">
+<aside class="column2" style="border-right: none">
 <p><a href="https://www.convertbinary.com/to-text/">00100001<br>01100110<br>
 01100001<br>01101100<br>01110011<br>01100101<br>00100000<br>00101000<br>
 01101001<br>01110100<br>00100111<br>01110011<br>00100000<br>01100110<br>
@@ -49,9 +51,9 @@ width="150">
 
 <main>
 
-<form style="color:#FFF" name="signup" action="mailto:angelawebbtech@gmail.com" method="post">
+<form style="color:#FFF" name="signup" <action="mailto:angelawebbtech@gmail.com" method="post">
 
-<fieldset>
+<fieldset class="column9">
 <legend style="text-align:right; border-color:#4ECCF8">Sign Up Today!</legend>
 <br>
 <blockquote>After you're done with this sign-up, don't forget to go over 
@@ -59,7 +61,7 @@ width="150">
 </blockquote>
 <br>
 
-<fieldset>
+<fieldset class="column9">
 <legend>Required Information:</legend>
 Name?<input type="text" name="firstname" required placeholder="First Last"/>
 <br><br>
@@ -68,7 +70,7 @@ Choose a password:<input type="password" placeholder="max 15 characters" require
 
 <br><br>
 
-<fieldset>
+<fieldset class="column9">
 <legend>About you:</legend>
 What are you studying?<br>
 	<input type="radio" name="major" value="Software Development"/>Software Development<br/>
@@ -108,19 +110,19 @@ Email address:<input type="email" name="email" placeholder="email@example.com"/>
 
 <br><br>
 
-<fieldset>
+<fieldset class="column9">
 <legend>Everything correct?</legend>
 <input type="submit" value="Submit Info"> Send us this information so that we can start looking forward to meeting you!
 <br><br>
-<input type="reset" value="Clear Form"> Erase all of the information you entered without sending it to us.
+<input type="reset" value="Clear All Info"> Erase all of the information you entered without sending it to us.
 </fieldset>
 </fieldset>
 </form>
 
-<footer style="background-color: #FFF">
+<footer class="column12" style="background-color: #FFF">
 <!--copyright info-->
 &copy;copyright 2022 <br>
-Angela Webb <a href="mailto:angelawebbtech@gmail.com">[contact]</a>
+AngelaWebbTech <a href="mailto:angelawebbtech@gmail.com">[contact]</a>
 </footer>
 
 </main>
